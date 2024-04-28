@@ -9,5 +9,6 @@ p{
 }
 
 .header{
-    font-family: 'lucida handwriting'
+    font-family: 'lucida handwriting';
+    padding: 10px;
 }
