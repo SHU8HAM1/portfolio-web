@@ -1,14 +1,41 @@
-p{
-    color:midnightblue;
-    background-color: azure;
-    width: 100%;
+body{
+    color: white;
+    margin: auto;
+    background-color: #282828;
 }
 
 .L1{
     font-family: 'Times New Roman', Sans-seriff;
+    color: white;
 }
 
 .header{
     font-family: 'lucida handwriting';
     padding: 10px;
+}
+
+.top-container{
+    display: flex;
+    color:blanchedalmond;
+    background-color: #121212;
+    width: 100%;
+    justify-content: space-between;
+    position:fixed;
+    top:0px;
+}
+
+.left{
+    padding: 10px;
+    
+}
+
+.space{
+    padding:10px;
+    border: 10px;
+    height: 70px;
+}
+
+.content{
+    padding:10px;
+    padding-right: 100px;
 }
