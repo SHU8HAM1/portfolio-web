@@ -1,15 +1,19 @@
+/* UNIVERSAL SETTER*/
+
 body{
     color: white;
     margin: auto;
     background-color: #282828;
 }
 
-.L1{
-    font-family: 'Times New Roman', Sans-seriff;
-    color: white;
+a{
+    color: inherit;
+    text-decoration: inherit;
 }
 
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
+/*----TOP BAR------*/
 
 .top-container{
     display: flex;
@@ -26,12 +30,13 @@ body{
 }
 
 .left{
-    padding:0px;
+    padding-top:10px;
     margin: 0px;
     border:0px;
     padding-left: 10px;
-    font-size: 20px;
-    font-family: 'lucida handwriting';    
+    font-size: 40px;
+    font-family: 'lucida handwriting';
+    font-weight: bolder;  
 }
 
 .right{
@@ -49,6 +54,8 @@ body{
     }
 }
 
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
 .space{
     padding:10px;
     border: 10px;
@@ -58,9 +65,4 @@ body{
 .content{
     padding:10px;
     padding-right: 100px;
-}
-
-a{
-    color: inherit;
-    text-decoration: inherit;
 }
