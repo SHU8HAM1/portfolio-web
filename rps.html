@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice Page</title>
     <link rel="stylesheet" href="./styles/rps-style.css">
+    <script src="./rps-interactive.js"></script>
 </head>
 
 
@@ -37,18 +38,51 @@
 <div class="visual">
     <div class="player">
         <div>
-            <img src="./images/rock.png" height="250px">
+            <img id="player-display" src="./images/rock.png" height="250px">
         </div>
         <div class="text">
-            PLAYER 1
+            PLAYER
         </div>
+        <div id="score1" class="score">0</div>
     </div>
+    <div id="go">WELCOME!</div>
     <div class="player">
         <div>
-            <img src="./images/rock.png" height="250px">
+            <img id="comp-display" src="./images/rock.png" height="250px">
         </div>
         <div class="text">
-            PLAYER 2
+            COMPUTER
         </div>
+        <div id="score2" class="score">0</div>
     </div>
 </div>
+
+<!--|||||||||||||||||||||||||||||||||||||||||||||||||-->
+
+<div class="player-choice">
+<!--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
+    <div class="choices">
+<!-------------------------------------------------->
+        <div><button class="choice" type="button" onclick="changePlayer(0)">
+            <img class="choice-img" src="./images/rock-choice.jpg" width="200">
+        </button></div>
+<!-------------------------------------------------->
+        <div><button class="choice" type="button" onclick="changePlayer(1)">
+            <img class="choice-img" src="./images/paper-choice.jpg" width="200">
+        </button></div>
+<!-------------------------------------------------->
+        <div><button class="choice" type="button" onclick="changePlayer(2)">
+            <img class="choice-img" src="./images/scissors-copy.jpg" width="200">
+        </button></div>
+
+    </div>
+<!--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
+    <div class="shoot">
+        <button class="submit" onclick="deploy()">SHOOT</button>
+        <div id="preview">Rock</div>
+    </div>
+</div>
+
+<!--|||||||||||||||||||||||||||||||||||||||||||||||||-->
+
+</html>

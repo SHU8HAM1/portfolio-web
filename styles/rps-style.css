@@ -83,5 +83,81 @@ a{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 28px;
     }
+    .score{
+        padding-top: 30px;
+        padding-left: 130px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+    }
 }
 
+#go{
+    display:flex;
+    padding-top: 100px;
+    width: 500px;
+    justify-content: center;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+
+/*[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]*/
+
+.player-choice{
+    display: flex;
+    .choices{
+        width: 75%;
+    }
+}
+
+button{
+    background-color: inherit;
+    border-radius: 5px;
+    border: none;
+    height: 100px;
+    margin: 2px 4px;
+}
+
+.choice-img{
+    border-radius: 50%;
+    padding:5px;
+    height: 200px;
+}
+
+.choices{
+    display: flex;
+    padding-left: 75px;
+}
+
+.choice:active{
+    transform: translateY(10px);
+}
+
+.submit:active{
+    transform: translateY(10px);
+}
+
+
+.shoot{
+    padding-top: 50px;
+    padding-right: 190px;
+}
+
+.submit{
+    border-radius: 15px;
+    padding: 3px;
+    height: 150px;
+    width:200px;
+    background-color: teal;
+    border: 5px solid aliceblue;
+    color: white;
+    font-weight: 900;
+    font-size: 45px;
+    font-family: cursive;
+}
+
+#preview{
+    display: flex;
+    justify-content: center;
+}
